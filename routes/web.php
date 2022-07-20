@@ -16,15 +16,3 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-
-Route::get('first', function () {
-    return 'first';
-});
-
-Route::get('second', function () {
-    return 'second';
-});
-
-Route::get('example', function() {
-    return view('laravel_index'); 
-});
