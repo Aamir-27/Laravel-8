@@ -13,10 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('example', function() {
     return view('laravel_index'); 
+});
+
+// Dashboard
+Route::get('admin', function() {
+    return view('admin.dashboard');
+});
+
+// Datatable
+Route::get('table', function() {
+    return view('admin.datatable'); 
 });
