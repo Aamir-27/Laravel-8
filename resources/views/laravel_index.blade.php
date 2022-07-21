@@ -26,9 +26,9 @@
     <tbody>
       <tr>
         <td>1</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-        <td>DB</td>
+        <td>Website Layout</td>
+        <td>01_website_layout</td>
+        <td>None</td>
       </tr>
     </tbody>
   </table>
